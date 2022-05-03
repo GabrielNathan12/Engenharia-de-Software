@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>
+            Cadastro</title>
+    </head>
+    
+    <body>
+        <div>
+            <h1>SISTEMA DE CONTROLE BIBLIOTECÁRIO</h1>
+            <br>
+            <h2>MÓDULO DE CADASTROS</h2>
+            <br>
+            <p>
+                <font size="5">Cadastro de Clientes</font>
+            </p>
+        </div>
+        <form autocomplete="off">
+            <fieldset>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Nome</font>
+                    </label>
+                    <br>
+                    <input type="text" name="Nome" id="Nome">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Sobrenome
+                        </font>
+                    </label>
+                    <br>
+                    <input type="text" name="Sobrenome" id="Sobrenome">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">RG
+                        </font>
+                    </label>
+                    <br>
+                    <input type="text" name="RG" id="RG">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Data de Nascimento
+                        </font>
+                    </label>
+                    <br>
+                    <input type="date">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Admissão
+                        </font>
+                        </label>
+                    <br>
+                    <input type="date" min="01/01/1990 " max="01/01/2015">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Email
+                        </font>
+                        </label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Estado
+                        </font>
+                        </label>
+                        <input type="radio" id="SP" name="contact" value="SP">
+                        <label for="SP">SP</label>
+                        <input type="radio" id="RJ" name="contact" value="RJ">
+                        <label for="RJ">RJ</label>
+                        <input type="radio" id="MG" name="contact" value="MG">
+                        <label for="MG">MG</label>
+                        <input type="radio" id="ES" name="contact" value="ES">
+                        <label for="ES">ES</label>
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Telefone
+                        </font>
+                        </label>
+                    <input type="tel">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Departamento
+                        </font>
+                        </label>
+                    <select id="Departamento">
+                        <option selected disabled value=""></option>
+                        <option>Ciência da Computação</option>
+                        <option>Sistemas de Informação</option>
+                        <option>Engenharia de Software</option>
+                        <option>Engenharia de Computação</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Marca do Veiculo
+                        </font>
+                        </label>
+                    <select id="Marca do Veiculo">
+                        <option selected disable value=""></option>
+                        <option>VOLKSWAGEN</option>
+                        <option>FiAT</option>
+                        <option>FORD</option>
+                        <option>CHEVROLET</option>
+                        <option>GM</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Placa do Veiculo
+                        </font>
+                        </label>
+                    <input type="text" name="Placa" id="Placa">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Quatidade de Livros
+                        </font>
+                        </label>
+                    <input type="number" min="0" max="6" step="1">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Envie uma foto
+                        </font>
+                        </label>
+                    <br>
+                    <input type="file" name="Foto" id="Foto">
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <font face="Georgia" size="4">Quatidade de Pares de Sabados
+                        </font>
+                        </label>
+                    <br>
+                    <input type="number" min="0" max="100" step="2">
+                </div>
+            </fieldset>
+               <div>
+                <br>
+                   <button type="submit">
+                    <font face="Georgia" size="3">ENVIAR
+                    </font>
+                    </button>
+                   <button type="reset">
+                    <font face="Georgia" size="3">LIMPAR
+                    </font>
+                    </button>
+                   <br>
+                   <br>
+                   <button type="menu">
+                    <font face="Georgia" size="2">ENVIAR PARA NOVA ABA
+                    </font>
+                    </button>
+               </div>
+        </form>
+    </body>
+</html>
